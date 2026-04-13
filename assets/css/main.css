@@ -2420,6 +2420,8 @@ input, select, textarea {
 		.equipment.images {
 			display:flex;
 			justify-content:center;
+			flex-wrap: wrap;
+			
 		}
 
 		.equipment.images figure img {
