@@ -39,6 +39,31 @@ li a:target {
     background-color: #fffab5;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* Add dots under the hoverable text */
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltip-text {
+  visibility: hidden; /* Hidden by default */
+  width: 250px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
 figure {
 	text-align: center;
 }
