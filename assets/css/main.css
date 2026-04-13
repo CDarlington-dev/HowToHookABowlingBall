@@ -29,6 +29,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+figcaption {
+	text-align: center;
+	font-size: .7em;
+	
+}
+
 body {
 	line-height: 1;
 }
@@ -2378,6 +2384,16 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
+		.equipment.images {
+			display:flex;
+			justify-content:center;
+		}
+
+		.equipment.images figure img {
+			max-height: 300px;
+		}
+
+
 			.image.left img, .image.right img {
 				width: 100%;
 			}
@@ -3086,12 +3102,22 @@ input, select, textarea {
 		}
 
 		#header.alt {
+			background-image: url(../../images/iStock-93245774.jpg);
+			background-size: cover;
+			background-position: center;
+			position:relative;
 			padding: 7em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
 				font-size: 3.25em;
 			}
+
+			#header.alt p {
+				padding-bottom: 2em;
+			}
+
+
 
 			#header.alt > * {
 				-moz-transition: opacity 3s ease;
