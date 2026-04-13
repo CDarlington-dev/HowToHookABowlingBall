@@ -35,6 +35,14 @@ figcaption {
 	
 }
 
+li a:target {
+    background-color: #fffab5;
+}
+
+figure {
+	text-align: center;
+}
+
 body {
 	line-height: 1;
 }
