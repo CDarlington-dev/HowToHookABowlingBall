@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+html, body {
+    overflow-x: hidden;
+}
+
 figcaption {
 	text-align: center;
 	font-size: .7em;
